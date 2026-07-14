@@ -1,3 +1,5 @@
+from config import BOT_TOKEN
+
 from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
 from aiogram.types import (
@@ -8,7 +10,6 @@ from aiogram.types import (
 )
 from aiogram import F
 
-BOT_TOKEN = "8688957517:AAHA5JC7mkBKQt8ZesEPZWQmwktZW1p0ZcE"
 
 MINI_APP_URL = "https://montclair-mu.vercel.app"
 
