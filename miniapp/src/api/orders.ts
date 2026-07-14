@@ -1,7 +1,7 @@
 import type { CartItem } from "../hooks/useCart"
 import type { OrderForm } from "../types/order"
 
-const API_URL = "https://initially-diameter-fired-response.trycloudflare.com"
+const API_URL = "https://qr-menu-hyrt.onrender.com"
 
 export async function createOrder(
   form: OrderForm,

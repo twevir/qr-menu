@@ -1,6 +1,6 @@
 import type { Category } from "../types/menu"
 
-const API_URL = "https://initially-diameter-fired-response.trycloudflare.com"
+const API_URL = "https://qr-menu-hyrt.onrender.com"
 
 export async function getMenu(): Promise<Category[]> {
   const response = await fetch(`${API_URL}/menu/`)
